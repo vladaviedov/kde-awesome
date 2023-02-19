@@ -1,0 +1,8 @@
+#!/bin/bash
+export XDG_CURRENT_DESKTOP=KDE
+export GTK_USE_PORTAL=1
+/usr/bin/systemctl mask plasma-kwin_x11 --user
+/usr/bin/systemctl enable plasma-awesome --user
+/usr/bin/startplasma-x11
+/usr/bin/systemctl disable plasma-awesome --user
+/usr/bin/systemctl unmask plasma-kwin_x11 --user

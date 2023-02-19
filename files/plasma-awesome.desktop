@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=XSession
+Exec=/usr/local/bin/startplasma-awesome
+TryExec=/usr/local/bin/startplasma-awesome
+DesktopNames=KDE
+Name=awesome KDE
+Comment=Plasma with AwesomeWM
+X-KDE-PluginInfo-Version=5.26.5

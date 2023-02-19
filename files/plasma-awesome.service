@@ -1,0 +1,10 @@
+[Unit]
+Description=Plasma with AwesomeWM
+Before=plasma-workspace.target
+
+[Service]
+ExecStart=/usr/bin/awesome
+Restart=on-failure
+
+[Install]
+WantedBy=plasma-workspace.target
